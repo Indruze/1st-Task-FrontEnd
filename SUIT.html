@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body {
+      background: #eee;
+      margin: 150px 380px;
+    }
+
+    .Box {
+      background-color: #ffffff;
+      padding: 25px 40px;
+      border-radius: 4px;
+      box-shadow: 0 0 15px #b1b3b4;
+      margin-bottom: 20px;
+    }
+
+    .Box--success {
+      border: green solid 1px;
+      border-right: green solid 40px;
+    }
+
+    .Box--warning {
+      border: orange solid 1px;
+      border-right: orange solid 40px;
+    }
+
+    .Box-heading {
+      font-size: 20px;
+    }
+
+    .Box-text {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .Box-text--email {
+      color: #0c89ca;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="Box Box--success">
+      <h1 class='Box-heading'>Success!</h1>
+      <p class='Box-text'>Sed faucibus portittor purus, at dignissim nisl ullamcorper id. Proin consectetur
+        id nisi vel ultrices. Phasellus dictum sodales tortor, in fermentum lectus sollicitudin id.
+        <span class='Box-text--email'>lorem@ipsum.org.</span>
+      </p>
+    </div>
+    <div class="Box Box--warning ">
+      <h1 class='Box-heading'>Warning:</h1>
+      <p class='Box-text'>Sed faucibus portittor purus, at dignissim nisl ullamcorper id. Proin consectetur
+        id nisi vel ultrices. Phasellus dictum sodales tortor, in fermentum lectus sollicitudin id.
+        <span class='Box-text--email'>lorem@ipsum.org.</span>
+      </p>
+    </div>
+  </body>
+</html>
